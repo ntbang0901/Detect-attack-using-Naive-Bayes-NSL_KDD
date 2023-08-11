@@ -1,0 +1,78 @@
+Determining if the function pcap_setsampling exists failed with the following output:
+Change Dir: /home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3559683396/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3559683396.dir/build.make CMakeFiles/cmTryCompileExec3559683396.dir/build
+make[1]: Entering directory `/home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3559683396.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pcap_setsampling   -o CMakeFiles/cmTryCompileExec3559683396.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3559683396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3559683396.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pcap_setsampling    CMakeFiles/cmTryCompileExec3559683396.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3559683396 -rdynamic -lpcap 
+CMakeFiles/cmTryCompileExec3559683396.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pcap_setsampling'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3559683396] Error 1
+make: *** [cmTryCompileExec3559683396/fast] Error 2
+
+
+Determining if the function pcap_open exists failed with the following output:
+Change Dir: /home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec756957331/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec756957331.dir/build.make CMakeFiles/cmTryCompileExec756957331.dir/build
+make[1]: Entering directory `/home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec756957331.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pcap_open   -o CMakeFiles/cmTryCompileExec756957331.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec756957331
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec756957331.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pcap_open    CMakeFiles/cmTryCompileExec756957331.dir/CheckFunctionExists.c.o  -o cmTryCompileExec756957331 -rdynamic -lpcap 
+CMakeFiles/cmTryCompileExec756957331.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pcap_open'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/ntbang/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec756957331] Error 1
+make: *** [cmTryCompileExec756957331/fast] Error 2
+
+
+Determining if the function pcap_setsampling exists failed with the following output:
+Change Dir: /home/kali/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bf367/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf367.dir/build.make CMakeFiles/cmTC_bf367.dir/build
+gmake[1]: Entering directory '/home/kali/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf367.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pcap_setsampling -o CMakeFiles/cmTC_bf367.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.24/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bf367
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf367.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pcap_setsampling -rdynamic CMakeFiles/cmTC_bf367.dir/CheckFunctionExists.c.o -o cmTC_bf367  /usr/lib/x86_64-linux-gnu/libpcap.so 
+/usr/bin/ld: CMakeFiles/cmTC_bf367.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pcap_setsampling'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_bf367.dir/build.make:100: cmTC_bf367] Error 1
+gmake[1]: Leaving directory '/home/kali/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_bf367/fast] Error 2
+
+
+
+Determining if the function pcap_open exists failed with the following output:
+Change Dir: /home/kali/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6759/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6759.dir/build.make CMakeFiles/cmTC_e6759.dir/build
+gmake[1]: Entering directory '/home/kali/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6759.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pcap_open -o CMakeFiles/cmTC_e6759.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.24/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e6759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6759.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pcap_open -rdynamic CMakeFiles/cmTC_e6759.dir/CheckFunctionExists.c.o -o cmTC_e6759  /usr/lib/x86_64-linux-gnu/libpcap.so 
+/usr/bin/ld: CMakeFiles/cmTC_e6759.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pcap_open'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e6759.dir/build.make:100: cmTC_e6759] Error 1
+gmake[1]: Leaving directory '/home/kali/Desktop/kdd99_feature_extractor/build-files/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e6759/fast] Error 2
+
+
+
